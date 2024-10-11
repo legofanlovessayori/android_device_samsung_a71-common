@@ -82,6 +82,7 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     aptxalsOverlay \
+    audio.bluetooth.default \
 
 # Camera
 PRODUCT_PACKAGES += \
