@@ -75,9 +75,7 @@ on post-fs-data
 # Camera Boost
     chown cameraserver cameraserver /sys/kernel/mm/vmscan/mem_boost_mode
 
-on early-boot
-    chown system system /sys/class/sec/tsp/scrub_pos
-     
+on early-boot  
  # Permissions for Touchscreen
     chown system system /sys/class/sec/tsp/cmd
     chown system system /sys/class/sec/tsp/input/enabled
