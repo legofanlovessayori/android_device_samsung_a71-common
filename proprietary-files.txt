@@ -690,7 +690,6 @@ vendor/lib64/libsecnativefeature.so
 
 # Seccomp Policy
 vendor/etc/seccomp_policy/codec2.vendor.ext.policy
-vendor/etc/seccomp_policy/configstore@1.1.policy
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/etc/seccomp_policy/mediaextractor_sec.policy
 vendor/etc/seccomp_policy/samsung.software.media.c2-base-policy
