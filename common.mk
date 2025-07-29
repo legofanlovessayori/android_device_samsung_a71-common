@@ -168,6 +168,9 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,samsungVars,target_keymaster4_library,//vendor/samsung/a71-common:libskeymaster4device)
 
+# Libinit
+$(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):libinit_sm7150)
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.samsung \
