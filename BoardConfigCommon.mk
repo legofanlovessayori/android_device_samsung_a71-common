@@ -55,7 +55,7 @@ TARGET_NO_RADIOIMAGE := true
 TARGET_NO_RPC := true
 
 # Camera
-$(call soong_config_set,samsungCameraVars,needs_sec_reserved_field,true)
+$(call soong_config_set_bool,samsungCameraVars,needs_sec_reserved_field,true)
 
 SOONG_CONFIG_NAMESPACES += samsungCameraVars
 SOONG_CONFIG_samsungCameraVars += extra_ids
@@ -230,7 +230,7 @@ BOARD_AVB_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
 # Vibrator
-$(call soong_config_set,samsungVibratorVars,duration_amplitude,true)
+$(call soong_config_set_bool,samsungVibratorVars,duration_amplitude,true)
 
 # Enable chain partition for recovery.
 BOARD_AVB_RECOVERY_ALGORITHM := SHA256_RSA4096
