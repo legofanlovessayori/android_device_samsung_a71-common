@@ -43,7 +43,6 @@
 /dev/mdm                                       u:object_r:radio_device:s0
 /dev/network_latency                           u:object_r:radio_device:s0
 /dev/network_throughput                        u:object_r:radio_device:s0
-/dev/sec-nfc                                   u:object_r:nfc_device:s0
 /dev/nmea                                      u:object_r:radio_device:s0
 /dev/qmi[0-9]*                                 u:object_r:radio_device:s0
 /dev/pn547                                     u:object_r:nfc_device:s0
