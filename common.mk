@@ -397,6 +397,8 @@ PRODUCT_PACKAGES += \
     android.hardware.usb-service.samsung \
 
 # Vibrator
+$(call soong_config_set_bool,samsungVibratorVars,duration_amplitude,true)
+
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung \
 
