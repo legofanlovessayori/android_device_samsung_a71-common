@@ -55,8 +55,6 @@ TARGET_NO_RADIOIMAGE := true
 TARGET_NO_RPC := true
 
 # Camera
-$(call soong_config_set_bool,samsungCameraVars,needs_sec_reserved_field,true)
-
 SOONG_CONFIG_NAMESPACES += samsungCameraVars
 SOONG_CONFIG_samsungCameraVars += extra_ids
 
